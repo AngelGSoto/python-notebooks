@@ -1,0 +1,11 @@
+# Region file format: DS9 version 4.1
+global color=yellow dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+box(206.91927,-8.81024,2",2",0.0) # text={SPLUS.SPLUS-n07s42.0000000731.griz} color=#44cc66
+box(154.1388,-9.07716,2",2",0.0) # text={SPLUS.SPLUS-n08s03.0000039680.griz} color=#44cc66
+box(203.54064,-9.26565,2",2",0.0) # text={SPLUS.SPLUS-n08s39.0000026319.griz} color=#44cc66
+box(198.22197,-11.54541,2",2",0.0) # text={SPLUS.SPLUS-n10s35.0000031671.griz} color=#44cc66
+box(184.46591,-13.25385,2",2",0.0) # text={SPLUS.SPLUS-n11s26.0000025367.griz} color=#44cc66
+box(202.87894,-14.08619,2",2",0.0) # text={SPLUS.SPLUS-n11s39.0000003756.griz} color=#44cc66
+box(185.35229,-14.81444,2",2",0.0) # text={SPLUS.SPLUS-n12s25.0000021394.griz} color=#44cc66
+box(202.89506,-15.51312,2",2",0.0) # text={SPLUS.SPLUS-n12s38.0000001780.griz} color=#44cc66
