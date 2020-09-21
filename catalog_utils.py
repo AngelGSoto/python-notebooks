@@ -25,7 +25,7 @@ def region_lines_from_table(table, ra='RAJ2000', dec='DEJ2000',
     region_lines = region_hdr_lines[:]
     for row in table:
         region_lines.append(
-            region_box_to_string(row[ra], row[dec],
-                                 row[name], color))
+                    region_box_to_string(row[ra], row[dec],
+                                              row[name], color))
 
     return region_lines

@@ -7,3 +7,5 @@ Untitled*
 *.xcf
 *.py~
 *.e~
+*#
+#*
