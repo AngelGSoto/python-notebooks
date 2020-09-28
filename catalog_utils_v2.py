@@ -23,8 +23,12 @@ def region_lines_from_table(table, ra='RAJ2000', dec='DEJ2000', radius='kron', t
 
     region_lines = region_hdr_lines[:]
     for row in table:
-        region_lines.append(
-                            region_box_to_string(row[ra], row[dec], row[tile],
+        if row[radius] != 0.0:
+            region_lines.append(
+                                region_box_to_string(row[ra], row[dec], row[tile],
                                                   row[name], color, row[radius]))
-
+        else:
+            region_lines.append(
+                                region_box_to_string(row[ra], row[dec], row[tile],
+                                                  row[name], color))
     return region_lines
