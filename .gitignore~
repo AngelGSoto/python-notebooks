@@ -10,3 +10,6 @@ Untitled*
 *#
 #*
 .ipynb_checkpoints
+*.dat
+*.txt
+*.csv

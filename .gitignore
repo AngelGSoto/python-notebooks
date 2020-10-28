@@ -8,7 +8,8 @@ Untitled*
 *.py~
 *.e~
 *#
-#*
+\#*
 .ipynb_checkpoints
 *.dat
 *.txt
+*.csv
