@@ -16,7 +16,7 @@ sn.set_context("poster")
 import glob
 
 def spectra(hduspectra):
-    namefile = hduspectra.split("a/")[-1].split(".f")[0]
+    namefile = hduspectra.split("e/")[-1].split(".f")[0]
     hdu = fits.open(hduspectra)
     hdudata = hdu[0].data
     wl = hdudata[2]
